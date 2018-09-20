@@ -13,4 +13,4 @@ echo "Installing all plugins"
 vim -c PluginInstall -c q -c q
 
 echo "Installing YouCompleteMe"
-./bundle/YouCompleteMe/install.sh --all
+./bundle/YouCompleteMe/install.sh --clang-completer
