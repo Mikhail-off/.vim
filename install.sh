@@ -2,6 +2,8 @@
 
 clear
 
+cd ~/.vim/
+
 echo "Setting .vimrc"
 cp vimrc ~/.vimrc
 
