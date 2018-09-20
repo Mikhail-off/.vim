@@ -12,7 +12,7 @@ git submodule update --init --recursive
 git pull --recurse-submodules
 
 echo "Installing all plugins"
-vim -c PluginInstall -c q -c q
+vim -c PluginInstall -c qall
 
 echo "Installing YouCompleteMe"
 ./bundle/YouCompleteMe/install.py --clang-completer
