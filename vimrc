@@ -27,6 +27,8 @@ filetype plugin indent on
 set completeopt-=preview
 let g:ycm_global_ycm_extra_conf = "~/.vim/.ycm_extra_conf.py"
 let g:ycm_extra_conf_vim_data = [ '&filetype' ]
+"let g:ycm_python_binary_path = 'python3'
+map <F12> :YcmCompleter GoToDefinitionElseDeclaration<CR>
 
 map <F3> :NERDTreeToggle<CR>
 
