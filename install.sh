@@ -16,3 +16,4 @@ vim -c PluginInstall -c qall
 
 echo "Installing YouCompleteMe"
 ./bundle/YouCompleteMe/install.py --clang-completer
+./bundle/YouCompleteMe/install.py --java-completer
