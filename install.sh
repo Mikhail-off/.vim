@@ -2,6 +2,8 @@
 
 clear
 
+sudo apt-get install vim cmake python3-dev
+
 cd ~/.vim/
 
 echo "Setting .vimrc"
@@ -15,4 +17,4 @@ echo "Installing all plugins"
 vim -c PluginInstall -c qall
 
 echo "Installing YouCompleteMe"
-./bundle/YouCompleteMe/install.py --clang-completer --java-completer
+./bundle/YouCompleteMe/install.py --clang-completer
